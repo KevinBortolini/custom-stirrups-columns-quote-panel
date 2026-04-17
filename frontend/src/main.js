@@ -382,7 +382,7 @@ function resetarEditor() {
   vendedorNome = localStorage.getItem(SELLER_STORAGE_KEY) || vendedorNome || "";
   dataOrcamento = new Date().toISOString().slice(0, 10);
   observacoesOrcamento = "";
-  localActionMessage = "Novo orçamento iniciado.";
+  localActionMessage = "New budget started.";
 }
 
 function confirmarPerdaContexto(mensagem = "Há alterações em andamento. Deseja continuar?") {
