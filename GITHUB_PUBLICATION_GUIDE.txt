@@ -1,0 +1,61 @@
+GitHub Publication Guide
+
+1. Open the portfolio copy folder, not the original working project.
+   Folder name: Budget_Panel_for_Custom_Stirrups_and_Columns
+
+2. Review the repository contents before publishing.
+   Keep the app, frontend, tests, README, architecture notes, and publication guides.
+   Confirm that no local database, no real price file, and no private assets are present.
+
+3. Verify sensitive information is not present.
+   Check for:
+   - real company name
+   - real tax identifiers
+   - real addresses and phone numbers
+   - real logos
+   - real clients
+   - secrets, passwords, or tokens
+   - local machine paths
+   - production database files
+
+4. Recommended quick review commands:
+   - rg -n "tax id|token|password|secret|client|company|address|phone" .
+   - git status
+
+5. Initialize git if needed.
+   - git init
+   - git branch -M main
+
+6. Create the remote repository on GitHub.
+   Suggested repository name:
+   budget-panel-custom-stirrups-columns
+
+7. Suggested GitHub repository description:
+   Sanitized portfolio version of an internal-style budgeting web app for custom stirrups and columns, built with FastAPI, SQLite, and vanilla JavaScript.
+
+8. Add files and create the first commit.
+   - git add .
+   - git commit -m "Create public portfolio version"
+
+9. Connect the remote and push.
+   - git remote add origin <YOUR_GITHUB_REPO_URL>
+   - git push -u origin main
+
+10. Before making the repo public, review the rendered README on GitHub.
+    Confirm that:
+    - project title is correct
+    - screenshots section is ready or clearly marked as placeholder
+    - disclaimer is visible
+    - no confidential language remains
+
+11. What to include in the first public publication:
+    - sanitized source code
+    - README
+    - ARCHITECTURE.md
+    - tests
+    - launch/run notes
+    - at least 3 to 6 screenshots if possible
+
+12. Optional but recommended:
+    - add repository topics such as: fastapi, sqlite, vite, vanilla-javascript, quoting-tool, internal-tools, portfolio-project
+    - add a short release note or GitHub release summarizing the project purpose and stack

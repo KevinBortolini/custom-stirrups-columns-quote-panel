@@ -1,0 +1,66 @@
+LinkedIn Publication Guide
+
+1. Present the project as a real business workflow tool, not just a calculator.
+   Position it as a budgeting workflow application for custom stirrups and columns with quote history, PDF generation, and admin controls.
+
+2. Capture screenshots that communicate the workflow clearly.
+   Recommended screenshots:
+   - main dashboard with client form and item entry
+   - consolidated result area after calculation
+   - sidebar with status, summary, and actions
+   - history page with search filters and quote actions
+   - admin panel with demo values
+   - PDF print preview window
+
+3. Describe the business problem first.
+   Example angle:
+   Each stirrup and column may vary by format, dimensions, steel gauge, spacing, quantity, and customer type. That makes manual quote preparation slow and operationally expensive.
+
+4. Then explain the solution.
+   Example angle:
+   This application centralizes quote assembly, calculation, persistence, reopening of historical quotes, safe duplication for reuse, and browser-based PDF generation.
+
+5. Mention the tech stack explicitly.
+   Suggested stack line:
+   Built with FastAPI, SQLite3, Vite, vanilla JavaScript, and a browser print flow for PDF output.
+
+6. Position the project as a portfolio case.
+   Mention that the public repository is a sanitized version of an internal-style application and that confidential business data was removed.
+
+7. Suggested structure for the LinkedIn post:
+   - 1 short paragraph on the business problem
+   - 1 short paragraph on the product workflow
+   - 1 line for the stack
+   - 1 line for what you focused on technically
+   - GitHub link
+   - optional screenshot carousel
+
+8. Example technical focus points you can mention:
+   - preserved calculation behavior while modernizing the interface
+   - introduced searchable quote history backed by SQLite
+   - enabled safe reopening and duplication of historical quotes
+   - kept admin-only controls separated from quote calculation logic
+
+9. Links to include:
+   - GitHub repository link
+   - optional live demo link if you later publish one
+
+10. Avoid exposing confidential information.
+    Do not post:
+    - real clients
+    - real company identifiers
+    - real operational pricing
+    - admin credentials
+    - private database screenshots
+    - screenshots containing local file paths or internal environment details
+
+11. Example post draft:
+    I built a budgeting workflow web application for custom stirrups and columns, designed to reduce the time required to calculate, register, and formalize quotes for highly variable fabricated items.
+
+    The project covers the full operational flow: client data, custom item entry, quote calculation, history lookup, safe duplication of past quotes, and browser-based PDF generation.
+
+    Stack: FastAPI, SQLite3, Vite, vanilla JavaScript.
+
+    This public repository is a sanitized portfolio version of an internal-style application, with all business-sensitive data replaced by demo content.
+
+    GitHub: <YOUR_GITHUB_LINK>

@@ -1,0 +1,7 @@
+Suggested screenshot files to add before public publication:
+- dashboard-editor.png
+- consolidated-results.png
+- sidebar-status-summary-actions.png
+- history-page.png
+- admin-panel.png
+- pdf-preview.png

@@ -1,0 +1,40 @@
+GitHub Repository Profile
+
+Suggested repository name:
+budget-panel-custom-stirrups-columns
+
+Suggested short description:
+Sanitized portfolio version of an internal-style budgeting web app for custom stirrups and columns, built with FastAPI, SQLite, and vanilla JavaScript.
+
+Suggested homepage:
+Leave blank for now, or add a live demo URL later if you publish one.
+
+Suggested topics:
+fastapi
+sqlite
+sqlite3
+vite
+vanilla-javascript
+python
+internal-tools
+quoting-tool
+estimating-software
+pdf-generation
+portfolio-project
+manufacturing-software
+
+Suggested pinned highlights for the README preview:
+- Operational dashboard for custom quote assembly
+- Quote history with reopen and safe duplication
+- Admin-only pricing controls
+- Browser-based PDF generation
+- Sanitized public portfolio version of an internal-style application
+
+Suggested first release title:
+Public Portfolio Release v1
+
+Suggested first release notes:
+- Added sanitized public portfolio version of the application
+- Included architecture notes and publication guides
+- Preserved budgeting workflow, quote history, duplication, and PDF generation
+- Removed sensitive company and operational data
