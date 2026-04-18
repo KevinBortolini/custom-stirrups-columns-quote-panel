@@ -20,12 +20,12 @@ Main file:
 The backend is a FastAPI application composed of small route modules.
 
 - `app/main.py`: app bootstrap and router registration
-- `app/rotas/calculos.py`: stirrup and column calculation endpoints and calculation rules
+- `app/rotas/calculos.py`: stirrup and column calculation endpoints using a generalized public-demo pricing model
 - `app/rotas/orcamentos.py`: quote persistence, history search, retrieval, duplication support, and deletion
 - `app/rotas/admin.py`: admin authentication and internal price configuration
 - `app/rotas/sistema.py`: health/version endpoints
 
-The calculation logic remains isolated from the UI layer. The portfolio work preserves the original structure instead of rewriting the app around a new architecture.
+The calculation logic remains isolated from the UI layer. In the portfolio version, the exact business-specific formulas were replaced by a generalized demo model that still varies by geometry, gauge, spacing, quantity, and customer type without exposing internal commercial know-how.
 
 ## Database
 

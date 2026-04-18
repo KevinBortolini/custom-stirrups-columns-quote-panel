@@ -28,7 +28,7 @@ It was designed as a production-oriented quoting workflow rather than a purely a
 
 - Dashboard workflow for building quotes with client data, notes, and item lists
 - Separate quote item flows for custom stirrups and columns
-- Quote calculation flow preserved from the original working application
+- Quote calculation flow preserved at the application level, using generalized demo-safe formulas in the public version
 - Quote save and history lookup using SQLite
 - Reopen existing quotes for review
 - Duplicate historical quotes into a new quote instead of destructively editing the original
@@ -91,6 +91,7 @@ Use `run_local.bat` after creating the Python virtual environment.
 - This repository intentionally excludes any production database or real client/company data.
 - The default admin token in the portfolio version is a demo placeholder controlled by `BUDGET_PANEL_ADMIN_TOKEN`.
 - Demo price defaults are fictional and exist only to keep the sample app runnable.
+- The public version uses generalized demo calculation logic so the app remains realistic without exposing original internal business rules.
 - Historical quotes should be reused through duplication as a new quote rather than destructive editing.
 
 ## Public Portfolio Disclaimer
