@@ -36,6 +36,17 @@ It was designed as a production-oriented quoting workflow rather than a purely a
 - Admin area for internal price-per-kg configuration and protected controls
 - Quick-history access from the sidebar for operational reuse
 
+## Screenshots
+
+### Dashboard editor
+![Dashboard editor](docs/screenshots/dashboard-editor-rep-client.png)
+
+### History page
+![History page](docs/screenshots/history-page.png)
+
+### PDF preview
+![PDF preview](docs/screenshots/pdf-quote.png)
+
 ## Technologies Used
 
 - Frontend: Vanilla JavaScript, HTML, CSS, Vite
