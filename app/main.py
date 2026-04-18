@@ -5,7 +5,7 @@ from app.rotas.admin import router as router_admin
 from app.rotas.orcamentos import router as router_orcamentos
 
 app = FastAPI(
-    title="Budget Panel for Custom Stirrups and Columns",
+    title="Custom Stirrups Columns Quote Panel",
     version="0.1.0",
     description="Internal-style web API for quote calculation, persistence, history, and PDF generation."
 )

@@ -8,4 +8,4 @@ def health():
 
 @router.get("/versao")
 def versao():
-    return {"nome": "Budget Panel for Custom Stirrups and Columns", "versao": "0.1.0"}
+    return {"nome": "Custom Stirrups Columns Quote Panel", "versao": "0.1.0"}

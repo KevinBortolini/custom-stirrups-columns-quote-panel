@@ -14,6 +14,6 @@ if not exist "%ROOT%\.venv\Scripts\python.exe" (
 
 echo Starting backend and frontend...
 start "BACKEND" cmd /k "cd /d %ROOT% && .\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000"
-start "FRONTEND" cmd /k "cd /d %ROOT%\frontend && npm.cmd install && npm.cmd run dev -- --host 0.0.0.0 --port 5173"
+start "FRONTEND" cmd /k "cd /d %ROOT%\frontend && npm.cmd run dev -- --host 0.0.0.0 --port 5173"
 
 echo Done.

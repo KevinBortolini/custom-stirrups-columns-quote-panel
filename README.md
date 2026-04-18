@@ -41,7 +41,6 @@ It was designed as a production-oriented quoting workflow rather than a purely a
 - Frontend: Vanilla JavaScript, HTML, CSS, Vite
 - Backend: Python, FastAPI
 - Database: SQLite3
-- Testing: Python unittest regression tests
 - Output: browser print flow for PDF generation
 
 ## Architecture Overview
