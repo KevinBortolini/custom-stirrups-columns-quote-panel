@@ -1,6 +1,6 @@
-# Budget Panel for Custom Stirrups and Columns
+# Quote Panel for Custom Stirrups and Columns
 
-A sanitized public portfolio version of an internal-style budgeting web application for custom stirrups and columns.
+A sanitized public portfolio version of an internal-style quoting web application for custom stirrups and columns.
 
 This project demonstrates a production-oriented workflow for operational quoting: entering client data, assembling custom stirrup and column items, calculating totals, saving quotes, reopening historical quotes, duplicating past quotes safely, and generating printable PDF output.
 
@@ -12,11 +12,23 @@ Without dedicated software, the salesperson would need to calculate and register
 
 This application solves that problem by turning quote assembly into a structured workflow with fast calculation, persistence, history lookup, PDF generation, and controlled admin settings.
 
+## Why This Project Matters
+
+This project showcases a practical internal-tool scenario combining:
+- business workflow design
+- custom calculation handling
+- persistence and history
+- operational UX
+- admin-only controls
+- browser-based PDF generation
+
+It was designed as a production-oriented quoting workflow rather than a purely academic demo.
+
 ## Main Features
 
 - Dashboard workflow for building quotes with client data, notes, and item lists
 - Separate quote item flows for custom stirrups and columns
-- Budget calculation flow preserved from the original working application
+- Quote calculation flow preserved from the original working application
 - Quote save and history lookup using SQLite
 - Reopen existing quotes for review
 - Duplicate historical quotes into a new quote instead of destructively editing the original
@@ -40,11 +52,15 @@ The system is split into a small FastAPI backend and a Vite-based frontend.
 - `app/rotas/calculos.py` contains the existing quote calculation logic for stirrups and columns.
 - `app/rotas/orcamentos.py` handles quote persistence, history queries, reopening, duplication support, and safe deletion for admin users.
 - `app/rotas/admin.py` exposes admin login and internal price management endpoints.
-- `orcamentos.sqlite3` is created locally at runtime and stores quote snapshots as JSON plus searchable mirror fields.
+- `orcamentos.sqlite3` is created locally at runtime and stores quote snapshots plus searchable mirror fields for history and lookup.
 
 More detail is available in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## How to Run Locally
+
+Requirements:
+- Python 3.x
+- Node.js and npm
 
 ### 1. Backend
 
@@ -69,19 +85,6 @@ Then open `http://localhost:5173`.
 ### 3. Optional Windows helper
 
 Use `run_local.bat` after creating the Python virtual environment.
-
-## Screenshots
-
-Add screenshots to `docs/screenshots/` and update this section before public posting.
-
-Suggested screenshots:
-
-- Dashboard editor view
-- Consolidated results section
-- Sidebar with status, summary, and actions
-- History page with filters and actions
-- Admin panel opened with demo values
-- Browser print/PDF preview
 
 ## Notes / Observations
 
